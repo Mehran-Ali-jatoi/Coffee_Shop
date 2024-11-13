@@ -1,0 +1,54 @@
+@media screen and (max-width: 1000px) {
+    header .nav_bar {
+        display: block !important;
+    }
+    header .container_logo{
+        width:90% !important;
+    }
+    .container_logo .logo_div{
+        width: 60% !important;
+    }
+    .container_logo .logo_div .logo{
+        width: 100% !important;
+    }
+    header #d {
+        display: none !important;
+    }
+    .outstanding{
+        font-size: 50px !important;
+    }
+    .Coffee_shop{
+        font-size: 30px !important;
+    }
+    .hero .container .box .top .text p{
+        font-size:15px !important;
+    }
+    .hero .container .box .top .text button{
+        width: 150px !important;
+    }
+}
+@media (max-width: 1000px) {
+    /* Show hamburger menu, hide navigation links */
+    header .nav_bar {
+        display: flex; /* Show hamburger */
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    header nav {
+        display: none; /* Hide nav links */
+    }
+    
+    header .container_logo {
+        width: 80% !important; /* Ensure logo stays visible */
+    }
+   
+}
+@media screen and (max-width:450px) {
+    .container_logo .logo_div {
+        width: 90% !important;
+    }
+}
+
+
+
